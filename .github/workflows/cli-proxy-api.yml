@@ -2,7 +2,7 @@ name: 更新cli-proxy-api镜像版本
 
 on:
   schedule:
-    - cron: '58 23 * * *' #这里是UTC时间,相当于北京时间7:58
+    - cron: '0 22 * * *'  # UTC 22:00 = 北京时间 6:00
   workflow_dispatch:
 
 jobs:
